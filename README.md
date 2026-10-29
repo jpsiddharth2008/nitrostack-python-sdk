@@ -330,6 +330,10 @@ This detects all standard and Windows Store installation directories, sets up vi
 
 ### Widgets (UI tools)
 
+Registered widgets are also available as a JSON manifest at `widget://examples`.
+See [Widget registry and examples](docs/widget-registry.md) for resource reads,
+Python registry access, declared examples and duplicate-route behavior.
+
 Bind a static HTML template to a tool with `@widget` and return domain JSON from the handler:
 
 ```python
